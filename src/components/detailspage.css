@@ -1,0 +1,79 @@
+section {
+    padding: 40px 0;
+}
+
+.states {
+    width: 85%;
+    background-color: #F9F9FA;
+    margin: 0 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stat img {
+    width: 150px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.state1, .state2, .state3, .state4, .state5 {
+    position: relative;
+}
+
+.lagos, .abuja, .kaduna, .rivers, .kebbi {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+
+.state {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.properties {
+    padding-top: 2.5rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.properties span {
+    color: #00D4FC;
+}
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.card-rows, .news-row {
+    display: flex;
+    flex-wrap: no-wrap;
+}
+
+
+
+/*==============Media Queries================*/
+
+@media only screen and (max-width: 767px) {
+    .states {
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+    }
+
+    .states > img {
+        padding-bottom: 10px;
+    }
+}

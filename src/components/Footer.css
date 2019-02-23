@@ -1,0 +1,93 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    background-color: #23C5E4;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .offers {
+    font-size: 1.5rem;
+    margin: 30px 0 20px 0;
+}
+
+footer .contact {
+    font-weight: 100;
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer form {
+    width: 50%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    height: 40%;
+    position: relative;
+}
+
+.subscribe {
+    width: 55%;
+    border-radius: 3px;
+    border: none;
+    height:30px;
+    padding-left: 10px;
+    outline: none;
+    font-family: inherit;
+  }
+
+ ::placeholder { 
+    color: rgba(95, 94, 94, 0.5);
+    opacity: 1;
+    
+  }
+
+form button {
+    background:#00D4FC;
+    color:white;
+    border: none;
+    outline: none;
+    position:absolute;
+    right: 22.8%;
+    bottom: 4%;
+    height:28px;
+    width:80px;
+    text-align:center;
+    font-weight:bold;
+    padding:2px;
+    border-radius: 3px;
+    font-size: 10px;
+  }
+  button:hover{
+    cursor:pointer;
+  }
+
+  /*==============Media Queries==============*/
+
+  @media only screen and (max-width: 767px) {
+    footer .offers {
+        font-size: 1.0rem;
+    }
+
+    footer .contact {
+        text-align: center;
+    }
+
+    footer form {
+        width: 90%;
+
+    }
+    .subscribe {
+        width: 80%;
+      }
+
+      form button {
+        right: 10%;
+      }
+
+  }

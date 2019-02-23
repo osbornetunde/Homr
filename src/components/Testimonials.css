@@ -1,0 +1,41 @@
+.about{
+    text-align: center;
+    font-weight: 700;
+}
+
+.about span {
+    color: #00D4FC;
+}
+
+
+.testimonial {
+    width: 38%;
+    height: 50%;
+    background-color: #fff;
+    box-shadow: 2px 1px 20px 10px rgba(224, 223, 223, 0.9);
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 30px 30px 5px 30px;
+    margin: 30px 20px 5rem 20px;
+    border-radius: 2px;
+  }
+
+  .testimonial img{ 
+      width: 90px;
+      height: 90px;
+      display: block;
+      border-radius: 50%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+  }
+
+  .testimonial p {
+      padding-bottom: 15px;
+  }
+
+  .testimonial h4 {
+      margin-bottom: 10px;
+      font-weight: 700;
+  }
+
+  

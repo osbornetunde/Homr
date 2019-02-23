@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background: linear-gradient(rgba(255, 255, 255, 0.2),
+                                rgba(255, 255, 255, 0.2)),
+                                url('../img/landingpage.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+    max-width: 100%;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    padding-bottom: 1px;
+}
+
+.title {
+    margin-right: auto;
+    color: #000;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.main-nav {
+    flex: 0 0 auto;
+    list-style: none;
+    font-size: 1rem;
+}
+
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-nav li a {
+    color: #fff;
+}
+
+.main-nav li a:hover {
+    color: #00D4FC;
+}
+
+.main-nav li button {
+    background-color:#20E3B2;
+    padding: 6px;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    margin-right: 10px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.text-box h1, p {
+    /* position: absolute; */
+    word-spacing: 1px;
+    margin: 0px;
+}
+
+.text-box h1 {
+    /* width: 90%; */
+    /* top: 45%; */
+    /* left: 60%; */
+    color:#00D4FC;
+    margin-top: 20%;
+    /* margin-left: 40%; */
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.text-box p {
+    width: 400px;
+    /* top: 51%; */
+    /* left: 45%; */
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+
+
+/*===============Media Queries=============*/
+
+@media only screen and (max-width: 767px) {
+    .text-box h1 {
+        width: 90%;
+        font-size: 100%;
+        margin-left: 5%;
+    }
+
+    .text-box p {
+        width: 13rem;
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+body {
+    font-size: 18px;
+}
+
+    .text-box h1 {
+        font-size: 2rem;
+    }
+
+    /* .text-box p {
+        width: 700px;
+        top: 50%;
+        left: 45%;
+        text-align: center;
+    } */
+
+}
+
+@media only screen and (max-width: 768px) {
+    .main-nav {
+        display: none;
+    }
+    
+}
+
+
+
