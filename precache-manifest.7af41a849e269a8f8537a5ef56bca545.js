@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/Homr/static/media/kaduna.2a87bef3.png"
   },
   {
-    "revision": "0b05f9060d6034226951",
-    "url": "/Homr/static/css/main.701682cf.chunk.css"
+    "revision": "f0a7cefe4d92d538467d",
+    "url": "/Homr/static/css/main.dbd030e7.chunk.css"
   },
   {
     "revision": "6172248d5f9855eb6659",
     "url": "/Homr/static/js/runtime~main.6172248d.js"
   },
   {
-    "revision": "b2f899ba0b742cdc2c29",
-    "url": "/Homr/static/js/2.b2f899ba.chunk.js"
+    "revision": "daa3773226ee99c00eb7",
+    "url": "/Homr/static/js/2.daa37732.chunk.js"
   },
   {
     "revision": "d9935a020cbf0487df9c2c009c0c365b",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/Homr/static/media/lagos.33fdcaf0.png"
   },
   {
-    "revision": "0b05f9060d6034226951",
-    "url": "/Homr/static/js/main.0b05f906.chunk.js"
+    "revision": "f0a7cefe4d92d538467d",
+    "url": "/Homr/static/js/main.f0a7cefe.chunk.js"
   },
   {
     "revision": "5dd48e13c0faa29145be8fc7beca092f",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/Homr/static/media/landingpage.0ee702f0.png"
   },
   {
-    "revision": "b509c37ebdcd1283c4494618a848a083",
+    "revision": "f1f8fe2ec7f5a6d1d063512f55398183",
     "url": "/Homr/index.html"
   }
 ];
