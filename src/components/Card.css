@@ -60,3 +60,41 @@
     height: 11px;
     padding: 0 5px;
   }
+
+
+  /*==================Media Queries================*/
+
+
+  
+  @media only screen and (max-width: 767px){
+    .card {
+       width: calc(95% / 2);
+    }
+
+    .value {
+        margin-bottom: 5px ;
+    }
+
+    .value button {
+        width: 50%;
+        border-radius: 3px;
+        padding: 5px 5px;
+        font-size: 9px;
+    }
+
+    .value .price {
+        font-size: 13px;
+    }
+
+    .icons img {
+        width: 15px;
+        height: 15px;
+        padding: 0 5px;
+      }
+
+    .location {
+    font-size: 10px;
+    margin-bottom: 4px;
+}
+      
+  }

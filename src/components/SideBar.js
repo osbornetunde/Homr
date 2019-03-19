@@ -10,6 +10,8 @@ const sideBar = props => {
     return (
     <nav className={drawerClasses}>
         <ul>
+            <li><a href="#">SignUp</a></li>
+            <li><a href="#">Login</a></li>
             <li><a href="#">For Sale</a></li>
             <li><a href="#">For Rent</a></li>
             <li><a href="#">Blog</a></li>

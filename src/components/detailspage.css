@@ -58,9 +58,9 @@ h2 {
 
 .card-rows, .news-row {
     display: flex;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
-
 
 
 /*==============Media Queries================*/
@@ -75,5 +75,11 @@ h2 {
 
     .states > img {
         padding-bottom: 10px;
+    }
+
+    .stat img {
+        width: 200px;
+        height: 100px;
+        border-radius: 5px;
     }
 }

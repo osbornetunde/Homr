@@ -95,6 +95,13 @@
     .search-bar button {
       top: 9rem;
       left: 42%;
+      margin-top: 0.3rem;
+    }
+    .search-bar button img {
+      width: 18px;
+      height: 10px;
+      padding-right: 2px;
+      padding-top: 2px;
     }
 }
 
