@@ -3,6 +3,7 @@ import './News.css';
 
 
 
+
 const News = ({ images }) => {
 
     return (

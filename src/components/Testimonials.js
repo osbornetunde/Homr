@@ -7,7 +7,7 @@ const Testimonials = ({ Persons }) => {
     return (
         <>
             <section className="testimonial">
-            <img src={Persons}  alt="person"/>
+            <img  src={Persons}  alt="person"/>
             <p>
                 Lorem ipsum dolor sit amet, vis omnis dolore at, id nam nullam intellegam. 
                 Vis nobis numquam mediocritatem id, erat tollit cu vix. Ut has utamur deleniti adipiscing, has ei prima dignissim.

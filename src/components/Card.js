@@ -1,5 +1,6 @@
 import React from 'react';
 import './Card.css';
+import { SimpleImg } from 'react-simple-img';
 import restroom from '../img/restroom.png';
 import bathtub from '../img/bathtub.png';
 import bed from '../img/bed.png';
@@ -9,8 +10,8 @@ const Card = ({ images }) => {
 
     return (
         images.map( (image, index) => {
-            return(<div className="card">
-            <img key={index} src={image} alt="properties" />
+            return(<div key={index} className="card">
+            <SimpleImg  className="img" src={image} alt="properties" style={{'height': '5%'}}/>
             <div className="value">
                 <p className="price">{'$3,500'}</p>
                 <button>View Property</button>
